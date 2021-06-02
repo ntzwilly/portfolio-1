@@ -68,3 +68,8 @@
   align-items: center;
   height: 25px;
 }
+
+.fab {
+  color: #505F79;
+  height: 20px;
+}
