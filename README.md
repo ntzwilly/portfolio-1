@@ -4,8 +4,7 @@
 
 > Build a mobile version of the header and the headline section of the webpage.
 
-![appscreenshot](https://user-images.githubusercontent.com/9049260/120541611-6178c380-c3ea-11eb-9e63-7c73cf560d46.png)
-
+![appscreenshot](https://user-images.githubusercontent.com/9049260/120624398-f28a8180-c460-11eb-95fa-facc6258d39a.png)
 
 ## Built With
 

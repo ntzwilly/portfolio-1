@@ -5,16 +5,22 @@
   box-sizing: border-box;
 }
 
+body{
+  width: 380px;
+  height: 726px;
+  background-image: url(images/header-background-mobile.svg);
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 375px;
+  width: 350px;
   height: 40px;
 }
 
 .logo-container {
-  margin-left: 24px;
+  margin-left: 20px;
 }
 
 .hamburger-container {
@@ -26,11 +32,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 400px;
+  height: 300px;
   width: 327px;
   left: 24px;
   top: 114px;
   margin: 100px 36px 20px 24px;
+  z-index: 1;
 }
 
 .title {
@@ -38,17 +45,21 @@
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 48px;
   text-align: left;
   color: #172b4d;
+  width: 300px;
+  margin-right: 20px;
 }
 
-.content p {
+.content {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
   color: rgb(12, 4, 4);
+  padding-right: 70px;
+  margin-right: 10px;
 }
 
 .header-2 {
@@ -72,4 +83,13 @@
 .fab {
   color: #505f79;
   height: 20px;
+}
+
+.fas {
+  color: #6070FF;
+  margin-right: 24px;
+}
+
+.nav-link {
+  list-style-type: none;
 }
