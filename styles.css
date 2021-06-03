@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 380px;
   height: 726px;
   background-image: url(images/header-background-mobile.svg);
@@ -78,6 +78,7 @@ body{
   justify-content: space-around;
   align-items: center;
   height: 25px;
+  list-style-type: none;
 }
 
 .fab {
@@ -86,10 +87,7 @@ body{
 }
 
 .fas {
-  color: #6070FF;
+  color: #6070ff;
   margin-right: 24px;
 }
 
-.nav-link {
-  list-style-type: none;
-}
