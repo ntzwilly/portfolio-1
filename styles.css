@@ -1,75 +1,96 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  width: 380px;
-  height: 726px;
-  background-image: url(images/header-background-mobile.svg);
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 718px;
+  width: 375px;
+  z-index: 1;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 350px;
-  height: 40px;
+  width: 375px;
+  height: 44px;
 }
 
-.logo-container {
-  margin-left: 20px;
+.logo-image {
+  height: 20px;
+  width: 76px;
+  left: 12px;
+  top: 20px;
+  margin-left: 24px;
 }
 
 .hamburger-container {
-  margin-right: 36px;
   color: #acb7c3;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 300px;
-  width: 327px;
-  left: 24px;
-  top: 114px;
-  margin: 100px 36px 20px 24px;
-  z-index: 1;
+  height: 604.0000610351562px;
+  width: 375px;
+  top: 92px;
+  padding: 114px 24px 114px 24px;
+  background: url(images/background-image.svg);
 }
 
 .title {
+  padding-right: 24px;
+  margin-left: 24px;
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  height: 120px;
+  width: 327px;
+  left: 24px;
+  top: 114px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 52px;
   text-align: left;
   color: #172b4d;
-  width: 300px;
-  margin-right: 20px;
 }
 
 .content {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-style: normal;
+  font-weight: 400;
   line-height: 24px;
-  color: rgb(12, 4, 4);
-  padding-right: 70px;
-  margin-right: 10px;
+  text-align: left;
+  color: #344563;
+  margin-top: 50px;
+  margin-left: 24px;
+}
+
+.title-container {
+  height: 150px;
+  width: 327px;
+  left: 24px;
+  top: 114px;
+  background-color: aqua;
 }
 
 .header-2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
+  font-weight: 500;
+  line-height: 24px;
   text-align: left;
-  color: #5a76a7;
+  color: #7f8cff;
+  padding-top: 8px;
+  margin-left: 24px;
 }
 
 .nav-link {
@@ -79,6 +100,9 @@ body {
   align-items: center;
   height: 25px;
   list-style-type: none;
+  margin-top: 12px;
+  margin-right: 24px;
+  margin-left: 24px;
 }
 
 .fab {
@@ -88,5 +112,5 @@ body {
 
 .fas {
   color: #6070ff;
-  margin-right: 24px;
+  padding-right: 36px;
 }
