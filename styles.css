@@ -222,12 +222,24 @@ main {
   color: #344563;
 }
 
+.flex-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  width: 65%;
+}
+
+.flex-link ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .flex-button {
   margin-top: 35px;
 }
 
-.flex-button1 {
-  margin-top: 46px;
+.flex-link1 {
+  margin-top: 48px;
 }
 
 .btn-language {
@@ -243,6 +255,7 @@ main {
   text-align: left;
   background: #ebebff;
   color: #6070ff;
+  text-decoration: none;
 }
 
 .btn-project {
@@ -396,4 +409,12 @@ main {
   color: #5e6c84;
   background-color: #fff;
   border: 1px solid #e5e5e5;
+}
+
+.technology {
+  list-style-type: none;
+}
+
+.technology li p {
+  color: #253858;
 }
