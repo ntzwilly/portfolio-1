@@ -1,10 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 1: Setup and mobile version skeleton
+# Project 2: Mobile version
 
-> Build a mobile version of the header and the headline section of the webpage.
+> This project2 consists to create  mobile website sections where I list my portfolio projects and the About me section.
 
-![app_screenshot](https://user-images.githubusercontent.com/9049260/120692198-bf1f1580-c4a7-11eb-8505-90115fce4793.png)
+![screenshot1](https://user-images.githubusercontent.com/9049260/120773531-b9661600-c521-11eb-9cd9-5ab124b52a04.png)
+![screenshot2](https://user-images.githubusercontent.com/9049260/120773557-bec36080-c521-11eb-9dea-7af33751e55a.png)
+![screenshot3](https://user-images.githubusercontent.com/9049260/120773584-c3881480-c521-11eb-8ba6-4ff27c480d56.png)
+![screenshot4](https://user-images.githubusercontent.com/9049260/120773897-03e79280-c522-11eb-9134-869be162ec9f.png)
+![screenshot5](https://user-images.githubusercontent.com/9049260/120773906-0649ec80-c522-11eb-94ac-89749b109d8c.png)
+![screenshot6](https://user-images.githubusercontent.com/9049260/120773918-08ac4680-c522-11eb-9a10-86b227094fb8.png)
 
 ## Built With
 
