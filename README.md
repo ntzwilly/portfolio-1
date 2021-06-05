@@ -2,7 +2,7 @@
 
 # Project 2: Mobile version
 
-> This project2 consists to create  mobile website sections where I list my portfolio projects and the About me section.
+> This second project consists to create  mobile website sections where I list my portfolio projects and the About me section.
 
 ![screenshot1](https://user-images.githubusercontent.com/9049260/120773531-b9661600-c521-11eb-9cd9-5ab124b52a04.png)
 ![screenshot2](https://user-images.githubusercontent.com/9049260/120773557-bec36080-c521-11eb-9dea-7af33751e55a.png)
