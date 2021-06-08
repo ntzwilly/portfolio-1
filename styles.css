@@ -418,7 +418,6 @@ main {
   height: 779px;
   width: 375px;
   border: 1px solid blue;
-  top: 5410px;
   margin: auto;
   background: url("images/background_bottom.png");
   background-repeat: no-repeat;
@@ -431,6 +430,12 @@ main {
   height: 56px;
   top: 4734px;
   border: 1px solid blue;
-  margin: auto;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 103px;
 }
