@@ -409,3 +409,52 @@ main {
 .technology li p {
   color: #253858;
 }
+
+.contact {
+  height: 779px;
+  width: 375px;
+  margin: auto;
+  background: url("images/background_bottom.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  text-align: left;
+  padding-top: 30px;
+}
+.bottom-header {
+  margin-top: 103px;
+  border: 1px solid blue;
+  height: 56px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.bottom-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom-text a {
+  text-decoration: none;
+  color: #ebebff;
+}
+
+.bottom-text {
+  height: 102px;
+  width: 327px;
+  margin: auto;
+  margin-top: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+
