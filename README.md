@@ -2,7 +2,7 @@
 
 # Project 2: Mobile version
 
-> This third we create the the contact form at the bottom of the mobile version
+> This third we create the contact form at the bottom of the mobile version
 
 ![form_screenshot](https://user-images.githubusercontent.com/9049260/121239480-95942e80-c899-11eb-83c2-8489ef9c45ea.png)
 
