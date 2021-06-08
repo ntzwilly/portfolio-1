@@ -409,3 +409,28 @@ main {
 .technology li p {
   color: #253858;
 }
+
+.float-link ul {
+  list-style-type: none;
+}
+
+.contact {
+  height: 779px;
+  width: 375px;
+  border: 1px solid blue;
+  top: 5410px;
+  margin: auto;
+  background: url("images/background_bottom.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+}
+
+.bottom-header {
+  height: 56px;
+  top: 4734px;
+  border: 1px solid blue;
+  margin: auto;
+  text-align: center;
+}
