@@ -26,6 +26,7 @@
 👤 **Author**
 
 - GitHub: [@Munsa1](https://github.com/Munsa1)
+- LinkedIn: [@munsa-mibenge](https://www.linkedin.com/in/munsa-mibenge-a35736205/ )
 
 
 ## 📝 License
