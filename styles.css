@@ -663,4 +663,71 @@ main {
   .title-item {
     margin-bottom: 20px;
   }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 924px;
+    width: 1350px;
+  }
+
+  .about--1 {
+    height: 320px;
+    width: 447px;
+    margin-left: 142px;
+  }
+
+  .about--2 {
+    height: 360px;
+    width: 500px;
+    margin-right: 140px;
+    margin-top: -40px;
+  }
+
+  .language-div,
+  .language-div2 {
+    height: 24px;
+    width: 582px;
+  }
+
+  .language-div p,
+  .language-div2 p {
+    padding-left: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .line {
+    height: 1px;
+    width: 580px;
+    color: #dfe1e6;
+    margin-top: 24px;
+  }
+
+  .rectangle {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    height: 120px;
+    width: 122px;
+  }
+
+  .rectangle img {
+    align-self: flex-start;
+    margin-top: 20px;
+  }
+
+  .rectangle p {
+    align-self: flex-start;
+    margin-top: 20px;
+  }
+
+  .technology-div {
+    display: flex;
+    margin-top: 38px;
+  }
 }
