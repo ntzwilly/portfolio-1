@@ -470,6 +470,7 @@ main {
 
 .form {
   text-align: left;
+  justify-content: space-around;
   margin-left: 24px;
 }
 
@@ -729,5 +730,43 @@ main {
   .technology-div {
     display: flex;
     margin-top: 38px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 846px;
+    border: 1px solid black;
+    background: url("images/bottom-bg.png");
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 74.34px 79.09px;
+  }
+
+  .bottom-text {
+    height: 102px;
+    width: 569px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-input,
+  .email-input {
+    height: 48px;
+    width: 447px;
+    border-radius: 0;
+  }
+
+  .textarea-input {
+    height: 170px;
+    width: 447px;
+    border-radius: 0;
   }
 }
