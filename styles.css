@@ -35,6 +35,18 @@ main {
   color: #acb7c3;
 }
 
+.header-nav-links {
+  height: 40px;
+  width: 259px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #344563;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -525,4 +537,50 @@ main {
 .submit-button:active {
   background: #2230d2;
   color: #fff;
+}
+
+@media (max-width: 900px) {
+  .header-nav-link {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    height: 916px;
+    width: 1440px;
+    background: url("images/Headerbg.png");
+    border: 1px solid black;
+  }
+
+  .header-container {
+    height: 72px;
+    width: 1440px;
+    border: 1px solid black;
+  }
+
+  .hamburger-container {
+    display: none;
+  }
+
+  .header-nav-links ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 40px;
+    align-items: center;
+  }
+
+  .header-nav-links ul li a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .logo-container {
+    margin-left: 155px;
+  }
+
+  .header-nav-links {
+    margin-right: 154px;
+  }
 }
