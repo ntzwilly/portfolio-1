@@ -439,7 +439,7 @@ main {
   background-repeat: no-repeat;
   background-position: right;
   background-color: #6070ff;
-  border-top-left-radius: 80px;
+  border-top-left-radius: 100px;
   text-align: left;
   padding-top: 30px;
 }
@@ -553,13 +553,19 @@ main {
 }
 
 @media (min-width: 1024px) {
+  body {
+    background-color: #e5e5e5;
+  }
+
   main {
     height: 916px;
-    width: 1300px;
+    width: 100%;
     background: url("images/Headerbg.png");
     background-repeat: no-repeat;
     background-position: 1px 118px;
-    background-size: 98%;
+    background-size: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 100px;
   }
 
   .header-container {
@@ -613,6 +619,8 @@ main {
   .grid-container {
     height: 496px;
     width: 1156px;
+    margin-top: 100px;
+    background-color: #fff;
   }
 
   .text-items {
@@ -670,6 +678,9 @@ main {
     grid-template-columns: 1fr 1fr;
     height: 924px;
     width: 1350px;
+    background-color: #fff;
+    border-top-right-radius: 100px;
+    margin-top: 100px;
   }
 
   .about--1 {
@@ -737,12 +748,12 @@ main {
     flex-direction: column;
     width: 100%;
     height: 846px;
-    border: 1px solid black;
     background: url("images/bottom-bg.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: 74.34px 79.09px;
+    margin-top: -300px;
   }
 
   .bottom-text {
