@@ -158,6 +158,16 @@ main {
   text-decoration: none;
 }
 
+.bottom-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom-text a {
+  text-decoration: none;
+  color: #ebebff;
+}
+
 .flex-list {
   display: flex;
   list-style-type: none;
@@ -408,4 +418,111 @@ main {
 
 .technology li p {
   color: #253858;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 779px;
+  width: 375px;
+  margin: auto;
+  background: url("images/background_bottom.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.bottom-header {
+  margin-top: 80px;
+  height: 56px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.bottom-text {
+  height: 102px;
+  width: 327px;
+  margin: auto;
+  margin-top: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.form {
+  text-align: left;
+  margin-left: 24px;
+}
+
+.text-input,
+.email-input {
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding: 15px 38px 15px 16px;
+  color: #172b4d;
+}
+
+.textarea-input {
+  height: 170px;
+  width: 327px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 15px 38px 15px 16px;
+  color: #b3bac5;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 22px;
+}
+
+.submit-button {
+  position: relative;
+  left: 0;
+  height: 48px;
+  width: 150px;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 30px;
+}
+
+.submit-button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.submit-button:active {
+  background: #2230d2;
+  color: #fff;
 }
