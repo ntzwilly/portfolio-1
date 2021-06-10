@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 2: Mobile version
+# Project 4: Desktop version
 
-> In this third project, we create the contact form at the bottom of the mobile version
+> For the fourth project , I create the desktop version of my portfolio
 
-![form_screenshot](https://user-images.githubusercontent.com/9049260/121239480-95942e80-c899-11eb-83c2-8489ef9c45ea.png)
+![screenshot](https://user-images.githubusercontent.com/9049260/121507592-101d9500-c9e5-11eb-9f96-f38e311e7bf1.jpg)
 
 
 ## Built With
@@ -22,12 +22,6 @@
 
 - GitHub: [@ntzwilly](https://github.com/ntzwilly)
 - LinkedIn: [@ntazamawilly](https://linkedin.com/in/ntazama-willy-b676b7aa)
-
-👤 **Author**
-
-- GitHub: [@Munsa1](https://github.com/Munsa1)
-- LinkedIn: [@munsa-mibenge](https://www.linkedin.com/in/munsa-mibenge-a35736205/ )
-
 
 ## 📝 License
 
