@@ -26,8 +26,6 @@ main {
 .logo-image {
   height: 20px;
   width: 76px;
-  left: 12px;
-  top: 20px;
   margin-left: 24px;
 }
 
@@ -52,8 +50,6 @@ main {
   font-family: "Poppins", sans-serif;
   height: 120px;
   width: 327px;
-  left: 24px;
-  top: 114px;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -76,8 +72,6 @@ main {
 .title-container {
   height: 150px;
   width: 327px;
-  left: 24px;
-  top: 114px;
   background-color: aqua;
 }
 
@@ -126,8 +120,6 @@ main {
   grid-template-rows: 45% 10% 10% 10% 15% 10%;
   height: 552px;
   width: 327px;
-  left: 24px;
-  top: 114px;
   border-radius: 16px;
   padding: 16px;
   margin: auto;
@@ -224,7 +216,6 @@ main {
 .text-item2 {
   height: 76px;
   width: 295px;
-  top: 92px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-style: normal;
@@ -277,7 +268,6 @@ main {
 .btn-project {
   height: 48px;
   width: 124px;
-  top: 12px;
   border-radius: 8px;
   padding: 12px;
   font-family: "Poppins", sans-serif;
@@ -349,8 +339,6 @@ main {
   display: flex;
   height: 66.7155990600586px;
   width: 303px;
-  left: 12px;
-  top: 12px;
   border-radius: 8px;
   background: #f7f7f9;
   margin-bottom: 18px;
@@ -359,8 +347,6 @@ main {
 .rectangle img {
   height: 48px;
   width: 48px;
-  left: 12px;
-  top: 9px;
   margin-left: 10px;
   align-self: center;
 }
@@ -379,7 +365,6 @@ main {
 .line {
   height: 1px;
   width: 327px;
-  top: 71px;
   color: #dfe1e6;
 }
 
@@ -509,7 +494,6 @@ main {
 
 .submit-button {
   position: relative;
-  left: 0;
   height: 48px;
   width: 150px;
   border-radius: 8px;
@@ -536,7 +520,7 @@ main {
   color: #fff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .header-nav-links {
     display: none;
   }
@@ -546,7 +530,6 @@ main {
     flex-direction: column;
     height: 604.0000610351562px;
     width: 375px;
-    top: 92px;
     padding: 114px 24px 114px 24px;
     background: url(images/background-image.svg);
   }
@@ -617,10 +600,15 @@ main {
   }
 
   .grid-container {
+    display: flex;
     height: 496px;
     width: 1156px;
     margin-top: 100px;
     background-color: #fff;
+  }
+
+  .reverse-flex {
+    flex-direction: row-reverse;
   }
 
   .text-items {
@@ -635,27 +623,6 @@ main {
   .project-image {
     height: 448px;
     width: 544px;
-  }
-
-  .image--1,
-  .image--3 {
-    float: left;
-  }
-
-  .image--2,
-  .image--4 {
-    float: right;
-  }
-
-  .item--1,
-  .item--3 {
-    margin-left: 600px;
-    margin-top: -150px;
-  }
-
-  .item--2,
-  .item--4 {
-    margin-top: -150px;
   }
 
   .flex-link {
@@ -746,6 +713,7 @@ main {
   .contact {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
     height: 846px;
     background: url("images/bottom-bg.png");
