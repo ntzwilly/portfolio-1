@@ -204,6 +204,26 @@ img {
   margin-left: 3px;
 }
 
+.item3 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.item1 a {
+  color: #344563;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
 .flex-list li a {
   text-decoration: none;
   color: #7a869a;
@@ -211,28 +231,6 @@ img {
 
 .link1 {
   color: #344563 !important;
-}
-
-.item1 a {
-  color: #344563;
-  text-decoration: none;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.item3 a {
-  font-family: Poppins;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;  
 }
 
 .counter {
@@ -267,12 +265,11 @@ img {
 }
 
 .text-item2 {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #344563;
   margin-top: 10px;
@@ -607,7 +604,6 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: center;
   }
 
@@ -618,7 +614,6 @@ img {
   }
 
   .headline {
-    background-image: none;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -645,7 +640,6 @@ img {
 
   .grid-container {
     display: flex;
-    height: 496px;
     width: 90%;
     height: auto;
     margin-top: 100px;
@@ -736,7 +730,6 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
@@ -770,13 +763,12 @@ img {
   }
 
   .bottom-header {
-   font-family: Poppins;
-   font-size: 40px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 52px;
-   letter-spacing: 0em;
-   text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
   }
 
   .bottom-text {
@@ -784,7 +776,7 @@ img {
     width: 569px;
     margin-bottom: 20px;
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
@@ -801,17 +793,13 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
-    color: #172B4D;
-
+    color: #172b4d;
   }
-  
+
   .textarea-input {
     height: 170px;
     width: 400px;
     border-radius: 0;
   }
- }
- 
-
+}
