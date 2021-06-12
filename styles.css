@@ -801,8 +801,9 @@ img {
   .project-image:hover {
     animation-name: scale;
     animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;  
+    animation-timing-function: ease-in-out;
   }
+
   form {
     display: flex;
     flex-direction: column;
@@ -842,7 +843,6 @@ img {
   }
 
   @keyframes rotate {
-    
     100% {
       opacity: 100%;
       transform: rotate(360deg);
@@ -850,7 +850,6 @@ img {
   }
 
   @keyframes scale {
-    
     100% {
       opacity: 100%;
       transform: scale(1.3);
