@@ -369,6 +369,17 @@ img {
   background-color: #fff;
   margin-top: 20px;
   border: 1px solid #396df2;
+  transition: all 0.2s;
+}
+
+.btn-resume:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-resume:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .language-div {
@@ -713,6 +724,11 @@ img {
     color: #344563;
   }
 
+  .title-item {
+    animation-name: moveInRight;
+    animation-duration: 3s;
+  }
+
   .line {
     height: 1px;
     width: 98%;
@@ -777,6 +793,17 @@ img {
     margin-bottom: 20px;
   }
 
+  .logo-container:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+  }
+
+  .project-image:hover {
+    animation-name: scale;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+  }
+
   form {
     display: flex;
     flex-direction: column;
@@ -801,5 +828,31 @@ img {
     height: 170px;
     width: 400px;
     border-radius: 0;
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+
+    100% {
+      opacity: 100%;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes rotate {
+    100% {
+      opacity: 100%;
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes scale {
+    100% {
+      opacity: 100%;
+      transform: scale(1.3);
+    }
   }
 }
