@@ -369,6 +369,17 @@ img {
   background-color: #fff;
   margin-top: 20px;
   border: 1px solid #396df2;
+  transition: all 0.2s;
+}
+
+.btn-resume:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-resume:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .language-div {
