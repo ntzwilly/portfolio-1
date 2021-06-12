@@ -793,6 +793,16 @@ img {
     margin-bottom: 20px;
   }
 
+  .logo-container:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+  }
+
+  .project-image:hover {
+    animation-name: scale;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;  
+  }
   form {
     display: flex;
     flex-direction: column;
@@ -828,6 +838,22 @@ img {
     100% {
       opacity: 100%;
       transform: translateX(0);
+    }
+  }
+
+  @keyframes rotate {
+    
+    100% {
+      opacity: 100%;
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes scale {
+    
+    100% {
+      opacity: 100%;
+      transform: scale(1.3);
     }
   }
 }
