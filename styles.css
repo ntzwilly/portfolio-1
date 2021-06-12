@@ -724,6 +724,11 @@ img {
     color: #344563;
   }
 
+  .title-item {
+    animation-name: moveInRight;
+    animation-duration: 3s;
+  }
+
   .line {
     height: 1px;
     width: 98%;
@@ -812,5 +817,17 @@ img {
     height: 170px;
     width: 400px;
     border-radius: 0;
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+
+    100% {
+      opacity: 100%;
+      transform: translateX(0);
+    }
   }
 }
