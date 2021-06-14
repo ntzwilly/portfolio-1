@@ -4,7 +4,7 @@
 
 > For the fourth project , I create the desktop version of my portfolio
 
-![screenshot](https://user-images.githubusercontent.com/9049260/121507592-101d9500-c9e5-11eb-9f96-f38e311e7bf1.jpg)
+![screenshot](https://user-images.githubusercontent.com/9049260/121866445-39009b80-ccff-11eb-941a-e85ab0ba03b6.png)
 
 
 ## Built With
