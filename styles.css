@@ -651,10 +651,11 @@ img {
 
   .grid-container {
     display: flex;
-    width: 90%;
+    width: 88%;
     height: auto;
-    margin-top: 100px;
+    margin-top: 100px auto;
     background-color: #fff;
+    
   }
 
   .text-items {
@@ -663,6 +664,11 @@ img {
     padding-left: 40px;
     margin-top: 20px;
     padding-right: 20px;
+  }
+
+  .text-item2 {
+    width: 496px;
+    height: auto;
   }
 
   .project-image {
@@ -685,6 +691,10 @@ img {
 
   .reverse-flex .project-image {
     max-width: 100%;
+  }
+
+  .reverse-flex .text-item2 {
+    margin-right: 100px;
   }
 
   .language1,
@@ -852,7 +862,7 @@ img {
   @keyframes scale {
     100% {
       opacity: 100%;
-      transform: scale(1.3);
+      transform: scale(1.05);
     }
   }
 }
