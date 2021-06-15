@@ -354,7 +354,6 @@ img {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  color: #344563;
 }
 
 .btn-resume {
@@ -369,8 +368,8 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #396df2;
-  background-color: #fff;
+  background: #fff;
+  color: #2230d2;
   margin-top: 20px;
   border: 1px solid #396df2;
   transition: all 0.2s;
@@ -379,6 +378,8 @@ img {
 .btn-resume:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #2230d2;
+  color: #fff;
 }
 
 .btn-resume:active {
