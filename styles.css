@@ -93,7 +93,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color: #0F27FF;
+  color: #0f27ff;
   padding-top: 8px;
 }
 
@@ -212,7 +212,7 @@ img {
   color: #444c5a;
 }
 
-.item3{
+.item3 {
   color: #4b5163;
 }
 
@@ -311,7 +311,7 @@ img {
   letter-spacing: 0.03em;
   text-align: left;
   background: #ebebff;
-  color: #0017Eb;
+  color: #0017eb;
   text-decoration: none;
 }
 
@@ -811,9 +811,10 @@ img {
     animation-name: rotate;
     animation-duration: 3s;
   }
-  
-  .item3, .item5 {
-    color: #464F5d;
+
+  .item3,
+  .item5 {
+    color: #464f5d;
   }
 
   .project-image:hover {
