@@ -51,7 +51,6 @@ body {
 .title {
   padding-right: 24px;
   font-family: "Poppins", sans-serif;
-  height: 120px;
   width: 327px;
   left: 24px;
   top: 114px;
@@ -653,9 +652,8 @@ img {
     display: flex;
     width: 88%;
     height: auto;
-    margin-top: 100px auto;
+    margin-top: 100px;
     background-color: #fff;
-    
   }
 
   .text-items {
