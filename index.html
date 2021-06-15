@@ -362,14 +362,16 @@
         </a>
       </p>
       <form class="form" action="https://formspree.io/f/xwkabeng" method="post">
+        <label for="text" class="hidden"></label>
         <input
-          name="text"
+          name="text" id="text"
           class="text-input"
           type="text"
           maxlength="30"
           placeholder="Full name"
           required
         /><br />
+        <label for="email" class="hidden"></label>
         <input
           name="email"
           class="email-input"
@@ -377,6 +379,7 @@
           placeholder="Email address"
           required
         /><br />
+        <label for="textarea" class="hidden"></label>
         <textarea
           name="comment"
           class="textarea-input"
