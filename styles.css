@@ -93,7 +93,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color: #7f8cff;
+  color: #0F27FF;
   padding-top: 8px;
 }
 
@@ -193,7 +193,6 @@ img {
   font-weight: 700;
   line-height: 44px;
   text-align: left;
-  color: #172b4b;
   text-decoration: none;
 }
 
@@ -210,6 +209,11 @@ img {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  color: #444c5a;
+}
+
+.item3{
+  color: #4b5163;
 }
 
 .item1 a {
@@ -225,7 +229,6 @@ img {
 
 .flex-list li a {
   text-decoration: none;
-  color: #7a869a;
 }
 
 .link1 {
@@ -246,11 +249,13 @@ img {
   font-weight: 600;
   line-height: 16px;
   text-align: left;
+  color: #485060;
 }
 
 .item3,
 .item5 {
   margin-left: 10px;
+  color: #4b5363;
 }
 
 .text-items {
@@ -306,7 +311,7 @@ img {
   letter-spacing: 0.03em;
   text-align: left;
   background: #ebebff;
-  color: #6070ff;
+  color: #0017Eb;
   text-decoration: none;
 }
 
@@ -500,6 +505,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
+  color: white;
 }
 
 .bottom-text {
@@ -804,6 +810,10 @@ img {
   .logo-container:hover {
     animation-name: rotate;
     animation-duration: 3s;
+  }
+  
+  .item3, .item5 {
+    color: #464F5d;
   }
 
   .project-image:hover {
