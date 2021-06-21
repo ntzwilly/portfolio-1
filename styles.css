@@ -608,7 +608,7 @@ img {
 }
 
 .foreground {
-  filter: blur(10px);
+  filter: blur(7px);
 }
 
 @keyframes navLinksDisplay {
@@ -639,9 +639,14 @@ img {
     line-height: 44px;
     text-align: left;
     padding-top: 700px;
-    opacity: 0.9;
+    opacity: 0.75;
     backdrop-filter: blur(6px);
     animation: navLinksDisplay 0.3s ease-in;
+    z-index: 1;
+  }
+
+  .main-background {
+    z-index: 0;
   }
 
   .nav-active {
@@ -650,7 +655,7 @@ img {
 
   .hamburger-container {
     display: block;
-    z-index: 1;
+    z-index: 2;
   }
 
   .header-nav-link li {
