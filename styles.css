@@ -28,10 +28,7 @@ body {
 
 .hamburger-container {
   color: #acb7c3;
-}
-
-.header-nav-link {
-  display: none;
+  cursor: pointer;
 }
 
 .headline {
@@ -80,6 +77,14 @@ body {
   left: 24px;
   top: 114px;
   background-color: aqua;
+}
+
+.hamburger-container div {
+  width: 25px;
+  height: 3px;
+  background-color: #7f8cff;
+  margin: 5px;
+  margin-right: 40px;
 }
 
 .responsive-image {
@@ -140,6 +145,10 @@ body {
   margin-bottom: 80px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
+}
+
+.header-nav-link {
+  display: none;
 }
 
 img {
@@ -556,7 +565,6 @@ img {
 
 .submit-button {
   position: relative;
-  left: 0;
   height: 48px;
   width: 150px;
   border-radius: 8px;
@@ -581,6 +589,82 @@ img {
 .submit-button:active {
   background: #2230d2;
   color: #fff;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: #fff;
+  animation: navLinksDisplay 0.3s ease-in;
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+  background-color: #fff;
+  animation: navLinksDisplay 0.3s ease-in;
+}
+
+@keyframes navLinksDisplay {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .header-nav-link {
+    position: absolute;
+    height: 1300px;
+    width: 375px;
+    background: #6070ff;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    padding-top: 700px;
+    opacity: 0.9;
+    backdrop-filter: blur(6px);
+    animation: navLinksDisplay 0.3s ease-in;
+  }
+
+  .nav-active {
+    display: block;
+  }
+
+  .hamburger-container {
+    display: block;
+    z-index: 1;
+  }
+
+  .header-nav-link li {
+    list-style-type: none;
+    padding-left: 28px;
+    margin-bottom: 20px;
+  }
+
+  .header-nav-link li a {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    text-decoration: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
