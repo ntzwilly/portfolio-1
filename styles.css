@@ -607,6 +607,10 @@ img {
   animation: navLinksDisplay 0.3s ease-in;
 }
 
+.foreground {
+  filter: blur(10px);
+}
+
 @keyframes navLinksDisplay {
   from {
     opacity: 0;
@@ -617,7 +621,7 @@ img {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 560px) {
   body {
     overflow-x: hidden;
   }
