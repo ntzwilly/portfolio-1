@@ -1,11 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 5: Application deploy
+# Project 7: Mobile menu
 
-> For the fifth project , I Deploy the portfolio website using GitHub Pages.
+> For this milestone of my portfolio website, I implement the mobile menu using recently acquired JavaScript knowledge.
 
-![screenshot](https://user-images.githubusercontent.com/9049260/121866445-39009b80-ccff-11eb-941a-e85ab0ba03b6.png)
-
+![Screenshot from 2021-06-22 08-50-07](https://user-images.githubusercontent.com/9049260/122877183-9ebfd980-d336-11eb-800a-e61719cf0f03.png)
 
 ## Built With
 

@@ -12,8 +12,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 375px;
-  height: 48px;
   margin: auto;
   background-color: #fff;
 }
@@ -28,20 +26,17 @@ body {
 
 .hamburger-container {
   color: #acb7c3;
-}
-
-.header-nav-link {
+  cursor: pointer;
   display: none;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  height: 604.0000610351562px;
-  width: 375px;
   top: 92px;
   padding: 114px 24px 114px 24px;
   background: url(images/background-image.svg);
+  background-size: cover;
   margin: auto;
   margin-bottom: 114px;
   border-bottom-left-radius: 75px;
@@ -51,8 +46,6 @@ body {
 .title {
   padding-right: 24px;
   font-family: "Poppins", sans-serif;
-  height: 120px;
-  width: 327px;
   left: 24px;
   top: 114px;
   font-size: 40px;
@@ -80,6 +73,14 @@ body {
   left: 24px;
   top: 114px;
   background-color: aqua;
+}
+
+.hamburger-container div {
+  width: 25px;
+  height: 3px;
+  background-color: #7f8cff;
+  margin: 5px;
+  margin-right: 40px;
 }
 
 .responsive-image {
@@ -129,11 +130,6 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-rows: 45% 10% 10% 10% 15% 10%;
-  height: 552px;
-  width: 327px;
-  left: 24px;
-  top: 114px;
   border-radius: 16px;
   padding: 16px;
   margin: auto;
@@ -142,15 +138,16 @@ body {
   background-color: #fff;
 }
 
+.header-nav-link {
+  display: none;
+}
+
 img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
 }
 
 .title-item {
   font-family: "Poppins", sans-serif;
-  height: 36px;
-  width: 295px;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -161,8 +158,6 @@ img {
 
 .nav-item {
   font-family: "Poppins", sans-serif;
-  height: 36px;
-  width: 295px;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -187,8 +182,6 @@ img {
   display: flex;
   list-style-type: none;
   align-items: center;
-  height: 36px;
-  width: 295px;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -332,9 +325,7 @@ img {
 .about {
   display: flex;
   flex-direction: column;
-  width: 375px;
   padding: 114px 24px 114px 24px;
-  height: 1263px;
   margin: auto;
   background-color: #fff;
 }
@@ -480,8 +471,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 779px;
-  width: 375px;
   margin: auto;
   background: url("images/background_bottom.png");
   background-repeat: no-repeat;
@@ -517,8 +506,8 @@ img {
 }
 
 .form {
-  text-align: left;
-  margin-left: 24px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .text-input,
@@ -547,7 +536,7 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
+  text-align: center;
   padding: 15px 38px 15px 16px;
   color: #b3bac5;
   border: 1px solid #cfd8dc;
@@ -556,7 +545,6 @@ img {
 
 .submit-button {
   position: relative;
-  left: 0;
   height: 48px;
   width: 150px;
   border-radius: 8px;
@@ -583,6 +571,183 @@ img {
   color: #fff;
 }
 
+.modal-background {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: left;
+}
+
+.modal-list {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  color: #344563;
+}
+
+.modal-mobile {
+  position: relative;
+  height: 92vh;
+  width: 315px;
+  display: grid;
+  grid-template-rows: 5% 5% 30% 30% 20% 10%;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+  margin: 20px auto;
+}
+
+.modal-img {
+  margin-top: 20px;
+}
+
+.modal-link {
+  margin-top: 70px;
+  display: flex;
+}
+
+.modal-link li {
+  list-style-type: none;
+}
+
+.modal-paragraph {
+  margin-top: 20px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+@keyframes navLinksDisplay {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .foreground {
+    filter: blur(7px);
+  }
+
+  .header-nav-link {
+    position: fixed;
+    height: 1300px;
+    width: 100%;
+    background: #6070ff;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    padding-top: 700px;
+    opacity: 0.75;
+    backdrop-filter: blur(6px);
+    animation: navLinksDisplay 0.3s ease-in;
+    z-index: 1;
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 4px);
+    background-color: #fff;
+    animation: navLinksDisplay 0.3s ease-in;
+    position: fixed;
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+    background-color: #fff;
+    animation: navLinksDisplay 0.3s ease-in;
+    position: fixed;
+  }
+
+  .main-background {
+    z-index: 0;
+  }
+
+  .nav-active {
+    display: block;
+  }
+
+  .hamburger-container {
+    display: block;
+    z-index: 2;
+  }
+
+  .header-nav-link li {
+    list-style-type: none;
+    padding-left: 28px;
+    margin-bottom: 20px;
+  }
+
+  .header-nav-link li a {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    text-decoration: none;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .header-container {
     width: 100%;
@@ -595,13 +760,13 @@ img {
     margin-left: 100px;
   }
 
-  .hamburger-container {
-    display: none;
-  }
-
   .header-nav-link {
     display: block;
     margin-right: 120px;
+  }
+
+  .hamburger-container {
+    display: none;
   }
 
   .header-nav-link ul {
@@ -769,7 +934,6 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 900px;
     background: url("images/bottom-bg.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
