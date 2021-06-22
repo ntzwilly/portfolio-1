@@ -20,7 +20,7 @@ const navDisplay = () => {
 
   close.addEventListener('click', () => {
     modalBg.classList.remove('bg-active');
-  })
+  });
 };
 
 navDisplay();

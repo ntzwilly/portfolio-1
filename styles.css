@@ -129,6 +129,7 @@ body {
 
 .grid-container {
   display: grid;
+
   /* grid-template-rows: 50% 10% 10% 10% 15% 10%; */
   border-radius: 16px;
   padding: 16px;
