@@ -12,8 +12,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 375px;
-  height: 48px;
   margin: auto;
   background-color: #fff;
 }
@@ -34,11 +32,10 @@ body {
 .headline {
   display: flex;
   flex-direction: column;
-  height: 604.0000610351562px;
-  width: 375px;
   top: 92px;
   padding: 114px 24px 114px 24px;
   background: url(images/background-image.svg);
+  background-size: cover;
   margin: auto;
   margin-bottom: 114px;
   border-bottom-left-radius: 75px;
@@ -48,8 +45,6 @@ body {
 .title {
   padding-right: 24px;
   font-family: "Poppins", sans-serif;
-  height: 120px;
-  width: 327px;
   left: 24px;
   top: 114px;
   font-size: 40px;
@@ -134,11 +129,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-rows: 45% 10% 10% 10% 15% 10%;
-  height: 552px;
-  width: 327px;
-  left: 24px;
-  top: 114px;
+  /* grid-template-rows: 50% 10% 10% 10% 15% 10%; */
   border-radius: 16px;
   padding: 16px;
   margin: auto;
@@ -152,14 +143,11 @@ body {
 }
 
 img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
 }
 
 .title-item {
   font-family: "Poppins", sans-serif;
-  height: 36px;
-  width: 295px;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -170,8 +158,6 @@ img {
 
 .nav-item {
   font-family: "Poppins", sans-serif;
-  height: 36px;
-  width: 295px;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -196,8 +182,6 @@ img {
   display: flex;
   list-style-type: none;
   align-items: center;
-  height: 36px;
-  width: 295px;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -341,9 +325,7 @@ img {
 .about {
   display: flex;
   flex-direction: column;
-  width: 375px;
   padding: 114px 24px 114px 24px;
-  height: 1263px;
   margin: auto;
   background-color: #fff;
 }
@@ -489,8 +471,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 779px;
-  width: 375px;
   margin: auto;
   background: url("images/background_bottom.png");
   background-repeat: no-repeat;
@@ -526,8 +506,8 @@ img {
 }
 
 .form {
-  text-align: left;
-  margin-left: 24px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .text-input,
@@ -556,7 +536,7 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
+  text-align: center;
   padding: 15px 38px 15px 16px;
   color: #b3bac5;
   border: 1px solid #cfd8dc;
@@ -589,26 +569,6 @@ img {
 .submit-button:active {
   background: #2230d2;
   color: #fff;
-}
-
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-  background-color: #fff;
-  animation: navLinksDisplay 0.3s ease-in;
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
-  background-color: #fff;
-  animation: navLinksDisplay 0.3s ease-in;
-}
-
-.foreground {
-  filter: blur(7px);
 }
 
 .modal-background {
@@ -649,7 +609,7 @@ img {
   font-weight: 600;
   line-height: 16px;
   text-align: left;
-  color: #344563;  
+  color: #344563;
 }
 
 .modal-mobile {
@@ -716,10 +676,30 @@ img {
     overflow-x: hidden;
   }
 
+  .foreground {
+    filter: blur(7px);
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    background-color: #fff;
+    animation: navLinksDisplay 0.3s ease-in;
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+    background-color: #fff;
+    animation: navLinksDisplay 0.3s ease-in;
+  }
+
   .header-nav-link {
     position: absolute;
     height: 1300px;
-    width: 375px;
+    width: 100%;
     background: #6070ff;
     font-family: "Poppins", sans-serif;
     color: white;
