@@ -934,7 +934,6 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 900px;
     background: url("images/bottom-bg.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
