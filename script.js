@@ -6,9 +6,9 @@ const navDisplay = () => {
   const modalBtn = document.querySelector('.btn-project');
   const modalBg = document.querySelector('.modal-background');
   const close = document.querySelector('.modal-close');
-  const linkOne = document.querySelector('.link-one'); 
-  const linkTwo = document.querySelector('.link-two'); 
-  const linkThree = document.querySelector('.link-three'); 
+  const linkOne = document.querySelector('.link-one');
+  const linkTwo = document.querySelector('.link-two');
+  const linkThree = document.querySelector('.link-three');
 
   function Display() {
     nav.classList.toggle('nav-active');
@@ -16,22 +16,22 @@ const navDisplay = () => {
     main.classList.toggle('foreground');
     logo.classList.toggle('foreground');
   }
-  
+
   burger.addEventListener('click', () => {
     Display();
   });
 
   linkOne.addEventListener('click', () => {
     Display();
-  })
+  });
 
   linkTwo.addEventListener('click', () => {
     Display();
-  })
+  });
 
   linkThree.addEventListener('click', () => {
     Display();
-  })
+  });
 
   modalBtn.addEventListener('click', () => {
     modalBg.classList.toggle('bg-active');
