@@ -10,6 +10,10 @@ const navDisplay = () => {
   const linkTwo = document.querySelector('.link-two');
   const linkThree = document.querySelector('.link-three');
 
+  func
+
+
+
   function Display() {
     nav.classList.toggle('nav-active');
     burger.classList.toggle('toggle');

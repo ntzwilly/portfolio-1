@@ -129,7 +129,8 @@ body {
 }
 
 .grid-container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   border-radius: 16px;
   padding: 16px;
   margin: auto;
@@ -189,6 +190,10 @@ img {
   text-align: left;
   color: #172b4b;
   text-decoration: none;
+}
+
+.flex-link ul {
+  display: flex;
 }
 
 .language1,
@@ -804,10 +809,20 @@ img {
 
   .grid-container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 90%;
     height: auto;
     margin-top: 100px;
     background-color: #fff;
+  }
+
+  .grid-container:nth-child(2){
+    flex-direction: row-reverse;
+  }
+
+  .grid-container:nth-child(4){
+    flex-direction: row-reverse;
   }
 
   .text-items {
@@ -816,11 +831,11 @@ img {
     padding-left: 40px;
     margin-top: 20px;
     padding-right: 20px;
+    width: 60%;
   }
 
   .project-image {
-    height: auto;
-    width: auto;
+    width: 100%;
   }
 
   .flex-link ul {
