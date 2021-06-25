@@ -6,15 +6,14 @@
  *    ==========================================================
  */
 // Import the function modalGenerator from the file modal_generator
-import modalGenerator from './modal_generator.js';
-
+import modalGenerator from "./modal_generator.js";
 
 // This is the function used to close the modal
 function handleCloseModal() {
-  const modal = document.getElementById('modal-container');
-  modal.style.display = 'none';
+  const modal = document.getElementById("modal-container");
+  modal.style.display = "none";
   // Delete the node  'modalContent' when closing
-  const modalContent = document.getElementsByClassName('modal-content');
+  const modalContent = document.getElementsByClassName("modal-content");
   modalContent[0].remove();
 }
 
@@ -24,24 +23,24 @@ function handleCloseModal() {
 function handleClickButtonPortfolio(e) {
   // Being here means that the 'See project' button was pressed
   // Open the modal
-  const modal = document.getElementById('modal-container');
-  console.log(e)
-  if (modal.style.display === 'flex') {
+  const modal = document.getElementById("modal-container");
+  console.log(e.srcElement.id);
+  if (modal.style.display === "flex") {
     handleCloseModal();
   } else {
-    modal.style.visibility = 'flex';
+    modal.style.display = "flex";
     // Get the id of the project from where the button was pressed
     modalGenerator(e.srcElement.id);
-    const closeModal = document.getElementsByClassName('modal-close');
-    console.log(closeModal)
-    closeModal[0].addEventListener('click', handleCloseModal);
+    const closeModal = document.getElementsByClassName("modal-close");
+    console.log(closeModal);
+    closeModal[0].addEventListener("click", handleCloseModal);
   }
 }
 
 // This first function ensures that the document has being already created
-document.addEventListener('DOMContentLoaded', () => {
-  const buttonsPortfolio = document.getElementsByClassName('btn-project');
+document.addEventListener("DOMContentLoaded", () => {
+  const buttonsPortfolio = document.getElementsByClassName("btn-project");
   Array.from(buttonsPortfolio).forEach((btn) => {
-    btn.addEventListener('click', handleClickButtonPortfolio);
+    btn.addEventListener("click", handleClickButtonPortfolio);
   });
 });
