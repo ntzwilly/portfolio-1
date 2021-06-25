@@ -13,7 +13,7 @@ function handleCloseModal() {
   const modal = document.getElementsById("modal-container");
   modal.style.display = "none";
   // Delete the node  'modalContent' when closing
-  const modalContent = document.getElementsByClassName("modal-content");
+  const modalContent = document.getElementByClassName("modal-content");
   modalContent[0].remove();
 }
 
