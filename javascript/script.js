@@ -3,9 +3,6 @@ const navDisplay = () => {
   const nav = document.querySelector('.header-nav-link');
   const main = document.querySelector('.main-background');
   const logo = document.querySelector('.logo-image');
-  const modalBtn = document.querySelector('.btn-project');
-  const modalBg = document.querySelector('.modal-background');
-  const close = document.querySelector('.modal-close');
   const linkOne = document.querySelector('.link-one');
   const linkTwo = document.querySelector('.link-two');
   const linkThree = document.querySelector('.link-three');
@@ -32,14 +29,13 @@ const navDisplay = () => {
   linkThree.addEventListener('click', () => {
     Display();
   });
-
 };
 
 navDisplay();
 
-const display = document.querySelector('.modal-show')
-const bg = document.querySelector('.modal-container')
+const display = document.querySelector('.modal-show');
+const bg = document.querySelector('.modal-container');
 
-display.addEventListener('click', ()=> {
-  bg.classList.add('modal-container-active')
-})
+display.addEventListener('click', () => {
+  bg.classList.add('modal-container-active');
+});
