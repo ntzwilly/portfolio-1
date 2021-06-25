@@ -92,7 +92,7 @@ function modalGenerator(id) {
   image.alt = "project-image";
   modalContent.appendChild(image);
   const modalFlex = elementGenerator("div", "modal-flex", null, null);
-  const paragraph = elementGenerator("p", null, null, null);
+  const paragraph = elementGenerator("p", 'paragraph', portfolio.paragraph, null);
   modalFlex.appendChild(paragraph);
   modalContent.appendChild(modalFlex);
   const modalFlexLeft = elementGenerator("div", "modal-flex-left", null, null);
@@ -155,10 +155,9 @@ function modalGenerator(id) {
   );
   modalBtnDiv.appendChild(modalBtnOne);
   modalBtnDiv.appendChild(modalBtnTwo);
-  line.appendChild(modalBtnDiv);
-  modalContent.appendChild(line);
+  modalFlexLeft.appendChild(modalBtnDiv);
+  modalFlex.appendChild(modalFlexLeft);
   modalContainer.appendChild(modalContent);
-  console.log(modalContainer);
 }
 
 export default modalGenerator;

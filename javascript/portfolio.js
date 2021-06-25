@@ -41,46 +41,42 @@ function portfolioGenerator(portfolio) {
   navItem.appendChild(flexList)
   // Create the breadcrumbs 'bread' and add the content 'text'
   // To do that iterate over the different parameters of the array bread
-  portfolio.bread.forEach((b, index) => {
-    let bread;
-    let breadText;
-    switch (index) {
-      case 0:
-      bread = elementGenerator('li', 'item1', null, null)
-      breadText = elementGenerator('a', 'link1',portfolio.bread[0], null)
-      bread.appendChild(breadText)
-      break;
-      case 1:
-      bread = elementGenerator('li', 'counter', null, null)
-      breadText = elementGenerator('img', null, null, null)
-      breadText.src = "images/Counter.png"
-      breadText.alt="counter"
-      bread.appendChild(breadText)
-      break;
-      case 2:
-      bread = elementGenerator('li', 'item3', null, null)
-      breadText = elementGenerator('a',null, portfolio.bread[2], null)
-      breadText.href = "#"
-      bread.appendChild(breadText)
-      break;
-      case 3:
-      bread = elementGenerator('li', 'counter', null, null)
-      breadText = elementGenerator('img', null, null, null)
-      breadText.src = "images/Counter.png"
-      breadText.alt="counter"
-      bread.appendChild(breadText)
-      flexList.appendChild(bread)
-      break;
-      case 4:
-      bread = elementGenerator('li', 'item5', null, null)
-      breadText = elementGenerator('a', null, portfolio.bread[4], null)
-      breadText.href = "#"
-      bread.appendChild(breadText)
-      break;
-    } 
-    flexList.appendChild(bread)
-
-  });
+      
+     
+      const bread1 = elementGenerator('li', 'item1', null, null)
+      const breadText1 = elementGenerator('a', 'link1',portfolio.bread[0], null)
+      bread1.appendChild(breadText1)
+      
+      const bread2 = elementGenerator('li', 'counter', null, null)
+      const breadText2 = elementGenerator('img', null, null, null)
+      breadText2.src = "images/Counter.png"
+      breadText2.alt="counter"
+      bread2.appendChild(breadText2)
+      
+      const bread3 = elementGenerator('li', 'item3', null, null)
+      const breadText3 = elementGenerator('a',null, portfolio.bread[1], null)
+      breadText3.href = "#"
+      bread3.appendChild(breadText3)
+      
+      const bread4 = elementGenerator('li', 'counter', null, null)
+      const breadText4 = elementGenerator('img', null, null, null)
+      breadText4.src = "images/Counter.png"
+      breadText4.alt="counter"
+      bread4.appendChild(breadText4)
+      flexList.appendChild(bread4)
+      
+      const bread5 = elementGenerator('li', 'item5', null, null)
+      const breadText5 = elementGenerator('a', null, portfolio.bread[2], null)
+      breadText5.href = "#"
+      bread5.appendChild(breadText5)
+     
+    
+    
+    flexList.appendChild(bread1)
+    flexList.appendChild(bread2)
+    flexList.appendChild(bread3)
+    flexList.appendChild(bread4)
+    flexList.appendChild(bread5)
   
    //create the bubbles
 
@@ -97,7 +93,6 @@ function portfolioGenerator(portfolio) {
     bubbles.appendChild(bubble);
   });
 
- 
 
    //create the bubbles
 
