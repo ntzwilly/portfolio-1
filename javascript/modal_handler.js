@@ -10,7 +10,7 @@ import modalGenerator from "./modal_generator.js";
 
 // This is the function used to close the modal
 function handleCloseModal() {
-  const modal = document.getElementById("modal-container");
+  const modal = document.getElementsById("modal-container");
   modal.style.display = "none";
   // Delete the node  'modalContent' when closing
   const modalContent = document.getElementsByClassName("modal-content");
