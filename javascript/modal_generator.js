@@ -1,6 +1,4 @@
-import * as data from './works_data.js'
-const portfolio = data.default;
-// console.log(portfolio)
+import portfolio, * as data from './works_data.js'
 
 function elementGenerator(typeName, className, content, idName) {
   const element = document.createElement(typeName)
@@ -17,15 +15,33 @@ function elementGenerator(typeName, className, content, idName) {
 
 }
 
-function modalGenerator(portfolio){
 
-  const modalBg = elementGenerator('div','modal-bg',null,null)
-  const modal = elementGenerator('div', 'modal', null, null)
-  modalBg.appendChild(modal)
+function modalGenerator(id) {
+  
+  console.log(id)
+  let portfolio;
+
+  data.default.forEach((p) => {
+    
+    console.log(p)
+
+    if (p.id === id) {
+      portfolio = p;
+    }
+  });
+  
+  console.log(portfolio)
+
+  const modalContainer = elementGenerator('div','modal-container',null,null)
+  console.log(modalContainer)
+  const modalClose = elementGenerator('div','modal-close', null, null)
+  modalContainer.appendChild(modalClose)
+  const modalContent = elementGenerator('div', 'modal-content', null, null)
+  modalContainer.appendChild(modalContent)
   const modalTitle = elementGenerator('h1','modal-title',null,null)
-  modal.appendChild(modalTitle)
+  modalContent.appendChild(modalTitle)
   const modalList = elementGenerator('ul', 'modal-list', null, null)
-  modal.appendChild(modalList);
+  modalContent.appendChild(modalList);
   const elementOne = elementGenerator('li', 'element-1', null, null)
   const dotOne = elementGenerator('li', 'circle', null, null)
   const elementTwo = elementGenerator('li', 'element-2', null, null)
@@ -37,13 +53,13 @@ function modalGenerator(portfolio){
   modalList.appendChild(dotTwo)
   modalList.appendChild(elementThree)
   const image = elementGenerator('img', 'modal-image', null, null)
-  image.src="img/Snapshoot_Portfolio3.png"
+  image.src="img/Snapshot_Portfolio3.png"
   image.alt="project-image"
-  modal.appendChild(image)
+  modalContent.appendChild(image)
   const modalFlex = elementGenerator('div', 'modal-flex', null, null)
   const paragraph = elementGenerator('p', null, null, null)
   modalFlex.appendChild(paragraph)
-  modal.appendChild(modalFlex)
+  modalContent.appendChild(modalFlex)
   const modalFlexLeft = elementGenerator('div', 'modal-flex-left', null, null)
   modalFlex.appendChild(modalFlexLeft)
   const modalLanguage = elementGenerator('ul', 'modal-language', null, null)
@@ -89,25 +105,7 @@ function modalGenerator(portfolio){
   const modalBtnTwo = elementGenerator('button', 'modal-btn btn--2', null, null)
   modalBtnDiv.appendChild(modalBtnOne)
   modalBtnDiv.appendChild(modalBtnTwo)
-  console.log(modalBg)
-
-  return modalBg;
-  
 }
-
-modalGenerator(portfolio);
-
-
-
-//    // Call the layout 'works' where the portfolio will be
-//  const works = document.getElementById('portfolio')
   
-//  //  Iterate over every portfolio and add the to the wrapper 'ul'
-//   const portfolio = data.default
-//   portfolio.forEach((p) => {
-//     const generatedPortfolio = portfolioGenerator(p)
-//     console.log(generatedPortfolio)
-//    //  console.log(works)
-//     works.appendChild(generatedPortfolio)
-//   })
 
+  export default modalGenerator;

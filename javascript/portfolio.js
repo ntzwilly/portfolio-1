@@ -79,7 +79,7 @@ function portfolioGenerator(portfolio) {
       break;
     } 
     flexList.appendChild(bread)
-    console.log(flexList)
+
   });
   
    //create the bubbles
@@ -126,7 +126,7 @@ function portfolioGenerator(portfolio) {
    liLanguageThree.appendChild(btnLanguageThree)
    const btnDiv = elementGenerator('div',null,null,null)
    textItems.appendChild(btnDiv)
-   const btnProject = elementGenerator('button', 'btn-project', 'See Project', 'btn--1')
+   const btnProject = elementGenerator('button', 'btn-project', 'See Project', portfolio.buttonId)
    btnProject.type = "button"
    btnDiv.appendChild(btnProject)
    return gridContainer;
