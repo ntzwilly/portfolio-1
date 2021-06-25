@@ -79,6 +79,59 @@
         </ul>
       </section>
       <section id="portfolio" class="portfolio"></section>
+      <button class="modal-show">click me</button>
+      <!-- --------------------------------Modal------------------------------------- -->
+      
+      <div id="modal-container" class="modal-container">
+        <div id="modal-content" class="modal-content">
+
+          <div class="modal-close"><i class="fas fa-times"></i></div>
+          
+          <h1 class="modal-title">Tonic</h1>
+          <ul class="modal-list">
+            <li class="element-1">CANOPY</li>
+            <li class="circle"></li>
+            <li class="element-2">Back End Dev</li>
+            <li class="circle"></li>
+            <li class="element-3">2015</li>
+          </ul>
+          <img
+            class="modal-image"
+            src="images/Snapshot_Portfolio3.png"
+            alt="project-image"
+          />
+          <div class="modal-flex">
+            
+            <p class="modal-paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic typesetting,
+              remaining essent
+            </p>
+            <div class="modal-flex-left">
+              <ul class="modal-language">
+                <li><a href="#">html</a></li>
+                <li><a class="list-center" href="#">css</a></li>
+                <li><a href="#">javaScript</a></li>
+              </ul>
+              <ul class="modal-language visible">
+                <li><a href="#">github</a></li>
+                <li><a class="list-center" href="#">ruby</a></li>
+                <li><a href="#">Bootstraps</a></li>
+              </ul>
+              <hr class="modal-line" />
+              <div class="modal-btn-div">
+                <button class="modal-btn btn--1">See live</button>
+                <button class="modal-btn btn--2">See Source</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- --------------------------------Modal---------------------------------------------- -->
 
       <section id="about" class="about">
         <div class="about--1">
@@ -93,7 +146,7 @@
               I’m a software developer! I can help you build a product , feature
               or website Look through some of my work and experience! If you
               like what you see and have a project you need coded, don’t
-              hestiate to contact me.
+              hesitate to contact me.
             </p></a
           >
           <a class="link" href="#"><h4 class="header-2">LET’S CONNECT</h4></a>
@@ -165,53 +218,6 @@
         </div>
       </section>
     </main>
-    <div class="modal-background">
-      <div class="modal-mobile">
-        <h2 class="modal-title">Tonic</h2>
-        <div class="nav-item">
-          <ul class="flex-list modal-list">
-            <li class="item1"><a class="link1" href="#">CANOPY</a></li>
-            <li class="counter">
-              <img src="images/Counter.png" alt="counter" />
-            </li>
-            <li class="item3"><a href="#">Back End Dev</a></li>
-            <li class="counter">
-              <img class="modal-image" src="images/Counter.png" alt="counter" />
-            </li>
-            <li class="item5"><a href="#">2015</a></li>
-          </ul>
-        </div>
-        <div class="image-items">
-          <img
-            class="project-image modal-img"
-            src="images/portfolio1.png"
-            alt="portfolio_snapshoot"
-          />
-        </div>
-        <p class="modal-paragraph">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
-        </p>
-        <div class="modal-link">
-          <ul>
-            <li><a class="btn-language" href="#">html</a></li>
-          </ul>
-          <ul>
-            <li><a class="btn-language language1" href="#">css</a></li>
-          </ul>
-          <ul>
-            <li><a class="btn-language language2" href="#">javaScript</a></li>
-          </ul>
-        </div>
-        <div class="btn-div">
-          <button class="btn-project" type="button">See Project</button>
-          <button class="btn-project" type="button">See Project</button>
-        </div>
-        <span class="modal-close">X</span>
-      </div>
-    </div>
 
     <footer id="contact" class="contact">
       <h2 class="bottom-header link"><a href="#">Contact me</a></h2>
@@ -249,9 +255,10 @@ Write your message here</textarea
         <input class="submit-button" type="submit" value="Get In Touch" />
       </form>
     </footer>
-    <script type="module" src="javascript/test.js"></script>
+    <script type="module" src="javascript/modal_handler.js"></script>
+    <script type="module" src="javascript/modal_generator.js"></script>
     <script type="module" src="javascript/portfolio.js"></script>
-    <script src="javascript/works_data.js"></script>
+    <script src="javascript/script.js"></script>
     <script
       src="https://kit.fontawesome.com/89144dc9c5.js"
       crossorigin="anonymous"

@@ -1,5 +1,6 @@
 const portfolio = [
   {
+    id: 'portfolio-1',
     title: 'Tonic',
     image: './images/Snapshot_Portfolio.png',
     bread: ['CANOPY', './images/Counter.png','Back End Dev', './images/Counter.png','2015'],
@@ -9,6 +10,7 @@ const portfolio = [
     buttonId: 'btn--1',
   },
   {
+    id: 'portfolio-2',
     title: 'Multi-Post Stories',
     image: './images/Snapshot_Portfolio2.png',
     bread: ['FACEBOOK','./images/Counter.png', 'Full Stack Dev', './images/Counter.png','2015'],
@@ -18,6 +20,7 @@ const portfolio = [
     buttonId: 'btn--2',
   },
   {
+    id: 'portfolio-3',
     title: 'Facebook 360',
     image: './images/Snapshot_Portfolio3.png',
     bread: ['FACEBOOK', './images/Counter.png','Full Stack Dev','./images/Counter.png' ,'2015'],
@@ -27,6 +30,7 @@ const portfolio = [
     buttonId: 'btn--3',
   },
   {
+    id: 'portfolio-4',
     title: 'Uber Navigation',
     image: './images/Snapshot_Portfolio4.png',
     bread: ['Uber', './images/Counter.png','Lead Developer', './images/Counter.png','2018'],

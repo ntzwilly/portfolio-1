@@ -10,10 +10,6 @@ const navDisplay = () => {
   const linkTwo = document.querySelector('.link-two');
   const linkThree = document.querySelector('.link-three');
 
-  func
-
-
-
   function Display() {
     nav.classList.toggle('nav-active');
     burger.classList.toggle('toggle');
@@ -37,13 +33,13 @@ const navDisplay = () => {
     Display();
   });
 
-  modalBtn.addEventListener('click', () => {
-    modalBg.classList.toggle('bg-active');
-  });
-
-  close.addEventListener('click', () => {
-    modalBg.classList.remove('bg-active');
-  });
 };
 
 navDisplay();
+
+const display = document.querySelector('.modal-show')
+const bg = document.querySelector('.modal-container')
+
+display.addEventListener('click', ()=> {
+  bg.classList.add('modal-container-active')
+})
