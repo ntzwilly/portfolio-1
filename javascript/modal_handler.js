@@ -23,7 +23,7 @@ function handleCloseModal() {
 function handleClickButtonPortfolio(e) {
   // Being here means that the 'See project' button was pressed
   // Open the modal
-  const modal = document.getElementById("modal-container");
+  const modal = document.getElementsById("modal-container");
   console.log(e.srcElement.id);
   if (modal.style.display === "flex") {
     handleCloseModal();
