@@ -9,8 +9,7 @@ contactForm.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();
     email.parentNode.insertBefore(alertMessage, email.nextSibling);
-  }
-  else {
+  } else {
     storeIt();
   }
 });
