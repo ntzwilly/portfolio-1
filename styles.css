@@ -1111,7 +1111,7 @@ img {
   .bottom-text {
     height: 102px;
     width: 569px;
-    margin-bottom: 20px;
+    margin: auto;
   }
 
   .logo-container:hover {
@@ -1129,10 +1129,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .bottom-text {
-    margin: auto;
   }
 
   .visible {
