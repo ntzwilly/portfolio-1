@@ -1,11 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 8: Details modal
+# Project 9: Validate contact form
 
-> For this milestone of the portfolio website, I implement a popup window that includes the project details in both desktop and mobile. 
+> For this milestone of my portfolio website, I implement a client-side validation of the data in the contact form before submission.
 
-![desktopscreenshot](https://user-images.githubusercontent.com/9049260/123490217-f2227800-d613-11eb-9ad3-226c45e61a93.png)
-![mobileScreenshot](https://user-images.githubusercontent.com/9049260/123490140-cacbab00-d613-11eb-927a-4b337b001535.png)
+![formscreenshot](https://user-images.githubusercontent.com/9049260/123507034-88cc5480-d667-11eb-926a-f4662044a869.png)
 
 ## Built With
 
