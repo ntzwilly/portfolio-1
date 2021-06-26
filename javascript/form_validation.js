@@ -7,6 +7,6 @@ contactForm.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();
     alertMessage.textContent = 'Email can only be in lowercase';
-    submitButton.style.borderColor = 'red';
+    email.style.borderColor = 'red';
   }
 });
