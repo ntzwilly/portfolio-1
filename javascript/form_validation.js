@@ -1,11 +1,12 @@
 const contactForm = document.getElementById('form');
 const email = document.getElementById('email');
-const alertMessage = document.createElement('span');
-alertMessage.className = 'alert';
-alertMessage.textContent = 'Email can only be in lowercase';
+const alertMessage = document.getElementById('span');
+const submitButton = document.getElementById('submit')
+console.log(submitButton)
 contactForm.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();
-    email.parentNode.insertBefore(alertMessage, email.nextSibling);
+    alertMessage.textContent = 'Email can only be in lowercase';
+    submitButton.style.borderColor = 'red';
   }
 });

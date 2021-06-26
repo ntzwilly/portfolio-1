@@ -564,6 +564,7 @@ img {
 
 .alert {
   color: red;
+  margin: 5px;
 }
 
 .submit-button:hover {
