@@ -181,8 +181,9 @@
           with it
         </a>
       </p>
-      <form class="form" action="https://formspree.io/f/xwkabeng" method="post">
+      <form id="form" class="form" action="https://formspree.io/f/xwkabeng" method="post">
         <input
+          id="name"
           name="text"
           class="text-input"
           type="text"
@@ -191,6 +192,7 @@
           required
         /><br />
         <input
+          id="email"
           name="email"
           class="email-input"
           type="email"
@@ -200,14 +202,15 @@
         <textarea
           name="comment"
           class="textarea-input"
-          maxlength="500"
+          maxlength="500" placeholder="Write your message here"
           required
         >
-Write your message here</textarea
+</textarea
         ><br />
-        <input class="submit-button" type="submit" value="Get In Touch" />
+        <input id="submit" class="submit-button" type="submit" value="Get In Touch" />
       </form>
     </footer>
+    <script type="module" src="javascript/form_validation.js"></script>
     <script type="module" src="javascript/modal_handler.js"></script>
     <script type="module" src="javascript/modal_generator.js"></script>
     <script type="module" src="javascript/portfolio.js"></script>
