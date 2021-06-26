@@ -1,8 +1,8 @@
 const contactForm = document.getElementById('form');
 const email = document.getElementById('email');
 const alertMessage = document.getElementById('span');
-const submitButton = document.getElementById('submit')
-console.log(submitButton)
+const submitButton = document.getElementById('submit');
+
 contactForm.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();
