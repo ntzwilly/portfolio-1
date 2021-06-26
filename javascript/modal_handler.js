@@ -24,7 +24,6 @@ function handleClickButtonPortfolio(e) {
   // Being here means that the 'See project' button was pressed
   // Open the modal
   const modal = document.getElementById('modal-container');
-  console.log(e.srcElement.id);
   if (modal.style.display === 'flex') {
     handleCloseModal();
   } else {
@@ -32,7 +31,6 @@ function handleClickButtonPortfolio(e) {
     // Get the id of the project from where the button was pressed
     modalGenerator(e.srcElement.id);
     const closeModal = document.getElementsByClassName('modal-close');
-    console.log(closeModal);
     closeModal[0].addEventListener('click', handleCloseModal);
   }
 }

@@ -37,7 +37,6 @@ function modalGenerator(id) {
   });
 
   const modalContainer = document.getElementById('modal-container');
-  console.log(modalContainer);
   const modalClose = elementGenerator(
     'img',
     'modal-close',
