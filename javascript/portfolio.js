@@ -15,7 +15,6 @@ function elementGenerator(typeName, className, content, idName) {
 }
 
 function portfolioGenerator(portfolio) {
-
   // Create the grid-container
   const gridContainer = elementGenerator('section', 'grid-container', null, null);
 
@@ -128,6 +127,5 @@ const works = document.getElementById('portfolio');
 const portfolio = data.default;
 portfolio.forEach((p) => {
   const generatedPortfolio = portfolioGenerator(p);
-  console.log(generatedPortfolio);
   works.appendChild(generatedPortfolio);
 });
