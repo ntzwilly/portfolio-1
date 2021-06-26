@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 9: Validate contact form
+# Project 10: Preserve data in the browser
 
-> For this milestone of my portfolio website, I implement a client-side validation of the data in the contact form before submission.
+> For this final milestone of my portfolio website, I save the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
-![formscreenshot](https://user-images.githubusercontent.com/9049260/123507034-88cc5480-d667-11eb-926a-f4662044a869.png)
+![store_data](https://user-images.githubusercontent.com/9049260/123508864-40fefa80-d672-11eb-8900-7bae99e576b7.png)
 
 ## Built With
 
