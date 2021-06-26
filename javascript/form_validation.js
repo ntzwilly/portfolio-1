@@ -1,3 +1,5 @@
+import storeIt from './local_storage.js';
+
 const contactForm = document.getElementById('form');
 const email = document.getElementById('email');
 const alertMessage = document.createElement('span');
@@ -7,5 +9,8 @@ contactForm.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();
     email.parentNode.insertBefore(alertMessage, email.nextSibling);
+  }
+  else {
+    storeIt();
   }
 });
