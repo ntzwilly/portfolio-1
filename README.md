@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 7: Mobile menu
+# Project 8: Details modal
 
-> For this milestone of my portfolio website, I implement the mobile menu using recently acquired JavaScript knowledge.
+> For this milestone of the portfolio website, I implement a popup window that includes the project details in both desktop and mobile. 
 
-![Screenshot from 2021-06-22 08-50-07](https://user-images.githubusercontent.com/9049260/122877183-9ebfd980-d336-11eb-800a-e61719cf0f03.png)
+![desktopscreenshot](https://user-images.githubusercontent.com/9049260/123490217-f2227800-d613-11eb-9ad3-226c45e61a93.png)
+![mobileScreenshot](https://user-images.githubusercontent.com/9049260/123490140-cacbab00-d613-11eb-927a-4b337b001535.png)
 
 ## Built With
 
