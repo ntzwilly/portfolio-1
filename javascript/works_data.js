@@ -1,11 +1,11 @@
 const portfolio = [
   {
     id: 'portfolio-1',
-    title: 'Tonic',
-    image: './images/Snapshot_Portfolio.png',
-    bread: ['CANOPY', 'Back End Dev', '2015'],
+    title: 'Todo List',
+    image: './images/project2.png',
+    bread: ['MICROVERSE', 'Full Stack Student', '2021'],
     paragraph:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Built with vanilla JS, this app is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete',
     bubbles: ['html', 'css', 'javaScript'],
     buttonId: 'btn--1',
   },
