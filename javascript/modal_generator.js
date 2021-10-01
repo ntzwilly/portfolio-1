@@ -146,12 +146,18 @@ function modalGenerator(id) {
     'See Project',
     null,
   );
+  modalBtnOne.addEventListener('click', () => {
+    window.open('https://ntzwilly.github.io/To_Do_List/dist/');
+  });
   const modalBtnTwo = elementGenerator(
     'button',
     'modal-btn btn--2',
     'See Source',
     null,
   );
+  modalBtnTwo.addEventListener('click', () => {
+    window.open('https://github.com/ntzwilly/To_Do_List');
+  });
   modalBtnDiv.appendChild(modalBtnOne);
   modalBtnDiv.appendChild(modalBtnTwo);
   modalFlexLeft.appendChild(modalBtnDiv);
